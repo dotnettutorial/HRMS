@@ -1,4 +1,4 @@
-name: Build & Deploy Angular 19 to GitHub Pages
+name: Build & Deploy HRMS
 
 on:
   push:
@@ -25,17 +25,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Angular production project
+      - name: Build production
         run: npm run build:prod -- --base-href=/HRMS/
 
-      - name: 🚀 Deploy to GitHub Pages
+      - name: 🚀 Deploy 
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/HRMS-production
 
   deploy:
-    name: Deploy to GitHub Pages
+    name: Deploy 
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
@@ -45,12 +45,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Download build artifact (v4)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v3
         with:
           name: production-files
           path: dist/HRMS-production
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy 
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
