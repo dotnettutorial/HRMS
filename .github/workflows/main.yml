@@ -5,23 +5,27 @@ on:
     branches:
       - master
 
+env:
+  CI: false
+
 jobs:
-  build-and-deploy:
+  build:
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout Code
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: 🟢 Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 22.12.0  # Angular 19 requires Node 20.19+ or 22+
+          node-version: 22.12.0
 
-      - name: 📦 Install Dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: 🏗️ Build Angular App (Production)
+      - name: Build Angular production project
         run: npm run build:prod -- --base-href=/HRMS/
 
       - name: 🚀 Deploy to GitHub Pages
@@ -29,3 +33,26 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/HRMS-production
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Download build artifact (v4)
+        uses: actions/download-artifact@v4
+        with:
+          name: production-files
+          path: dist/HRMS-production
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/HRMS-production
+
