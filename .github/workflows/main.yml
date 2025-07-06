@@ -34,7 +34,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/HRMS-production
 
-
   deploy:
     name: Deploy to GitHub Pages
     needs: build
@@ -45,8 +44,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Download build artifact
-        uses: actions/download-artifact@v3
+      - name: Download build artifact (v4)
+        uses: actions/download-artifact@v4
         with:
           name: production-files
           path: dist/HRMS-production
@@ -56,3 +55,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist/HRMS-production
+
