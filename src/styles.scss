@@ -17259,11 +17259,11 @@ a {
     }
 }
 
-.accumatch-nav-tabs {
+.lereta-nav-tabs {
     border-bottom: 1px solid #ced4da
 }
 
-.accumatch-nav-tabs.nav .nav-link {
+.lereta-nav-tabs.nav .nav-link {
     color: #646c83;
     border-top: none;
     border-left: none;
@@ -17280,7 +17280,7 @@ a {
     padding: 10px 16px
 }
 
-.accumatch-nav-tabs.nav .nav-link:after {
+.lereta-nav-tabs.nav .nav-link:after {
     content: "";
     position: absolute;
     left: 0;
@@ -17291,40 +17291,40 @@ a {
 }
 
 @media (max-width: 991.98px) {
-    .accumatch-nav-tabs.nav .nav-link {
+    .lereta-nav-tabs.nav .nav-link {
         min-width: auto
     }
 }
 
 @media (max-width: 575.98px) {
-    .accumatch-nav-tabs.nav .nav-link {
+    .lereta-nav-tabs.nav .nav-link {
         width: 100%
     }
 }
 
-.accumatch-nav-tabs.nav .nav-link:focus,
-.accumatch-nav-tabs.nav .nav-link:hover {
+.lereta-nav-tabs.nav .nav-link:focus,
+.lereta-nav-tabs.nav .nav-link:hover {
     border-color: #e8e8f2 #e8e8f2 #e3030a;
     isolation: isolate
 }
 
-.accumatch-nav-tabs.nav .nav-link.active,
-.accumatch-nav-tabs.nav .nav-link.show .nav-link {
+.lereta-nav-tabs.nav .nav-link.active,
+.lereta-nav-tabs.nav .nav-link.show .nav-link {
     color: #fff;
     background-color: #17253f;
     border-color: #e8e8f2 #e8e8f2 #e3030a
 }
 
-.accumatch-nav-tabs.nav .nav-link.active:after,
-.accumatch-nav-tabs.nav .nav-link.show .nav-link:after {
+.lereta-nav-tabs.nav .nav-link.active:after,
+.lereta-nav-tabs.nav .nav-link.show .nav-link:after {
     background-color: #e3030a
 }
 
-.accumatch-nav-tabs-2 {
+.lereta-nav-tabs-2 {
     border-bottom: 1px solid #ced4da
 }
 
-.accumatch-nav-tabs-2 .nav-link {
+.lereta-nav-tabs-2 .nav-link {
     color: rgba(51, 52, 63, .8);
     min-width: 180px;
     font-size: 18px;
@@ -17334,7 +17334,7 @@ a {
     background-color: #e7e7e7
 }
 
-.accumatch-nav-tabs-2 .nav-link.active {
+.lereta-nav-tabs-2 .nav-link.active {
     color: #33343f;
     background: #fff;
     border: none;
@@ -17342,7 +17342,7 @@ a {
     box-shadow: 4px -.3rem 0 rgba(180, 183, 185, .09)
 }
 
-.accumatch-nav-tabs-2 .nav-link:focus {
+.lereta-nav-tabs-2 .nav-link:focus {
     border: none
 }
 
@@ -17581,26 +17581,26 @@ a {
     border: 2px solid #fff
 }
 
-.accumatch-table.table-striped {
+.lereta-table.table-striped {
     margin-top: 0 !important
 }
 
-.accumatch-table.table-striped>thead>tr:first-child {
+.lereta-table.table-striped>thead>tr:first-child {
     background-color: #17253f !important;
     color: #ced4da;
     min-height: 45px
 }
 
-.accumatch-table.table-striped>tbody>tr:nth-child(even) {
+.lereta-table.table-striped>tbody>tr:nth-child(even) {
     background-color: #fafafa !important
 }
 
-.accumatch-table tbody tr td:first-child,
-.accumatch-table thead tr th:first-child {
+.lereta-table tbody tr td:first-child,
+.lereta-table thead tr th:first-child {
     padding-left: 1.5rem !important
 }
 
-.accumatch-table>thead>tr:nth-child(1)>th {
+.lereta-table>thead>tr:nth-child(1)>th {
     text-transform: uppercase;
     font-family: 'Helvetica Neue Condensed Bold';
     font-weight: 400;
@@ -17610,7 +17610,7 @@ a {
     padding: 8px 0 8px 8px
 }
 
-.accumatch-table>thead>tr:nth-child(2)>th {
+.lereta-table>thead>tr:nth-child(2)>th {
     font-family: 'Helvetica Neue LT Pro';
     font-weight: 400;
     font-style: normal;
@@ -17644,8 +17644,8 @@ a {
     border: solid 1px #a7a9c0
 }
 
-.bs-body .accumatch-table tbody tr td:first-child,
-.bs-body .accumatch-table thead tr th:first-child {
+.bs-body .lereta-table tbody tr td:first-child,
+.bs-body .lereta-table thead tr th:first-child {
     padding-left: .5rem !important
 }
 
@@ -17668,24 +17668,24 @@ a {
     width: 100% !important
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.accumatch-table.table-striped thead tr:first-child {
+.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.lereta-table.table-striped thead tr:first-child {
     background-color: #e7e9ec !important
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.accumatch-table.table-striped thead tr:nth-child(1) th {
+.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.lereta-table.table-striped thead tr:nth-child(1) th {
     padding-top: .75rem;
     padding-bottom: .75rem
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.accumatch-table.table-striped thead tr th {
+.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.lereta-table.table-striped thead tr th {
     color: #17253f
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.accumatch-table.table-striped thead tr th:first-child {
+.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.lereta-table.table-striped thead tr th:first-child {
     border-radius: 5px 0 0 0
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.accumatch-table.table-striped thead tr th:last-child {
+.tbl-child-wrapper .card-body .dataTables_scrollHeadInner .table.lereta-table.table-striped thead tr th:last-child {
     border-radius: 0 5px 0 0
 }
 
@@ -17700,15 +17700,15 @@ a {
     border-radius: 0 0 5px 5px
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollBody .table.accumatch-table.table-striped tbody tr {
+.tbl-child-wrapper .card-body .dataTables_scrollBody .table.lereta-table.table-striped tbody tr {
     border-bottom: 1px solid #b2d4f3
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollBody .table.accumatch-table.table-striped tbody tr:nth-child(even) {
+.tbl-child-wrapper .card-body .dataTables_scrollBody .table.lereta-table.table-striped tbody tr:nth-child(even) {
     background-color: #fff !important
 }
 
-.tbl-child-wrapper .card-body .dataTables_scrollBody .table.accumatch-table.table-striped tbody tr:last-child {
+.tbl-child-wrapper .card-body .dataTables_scrollBody .table.lereta-table.table-striped tbody tr:last-child {
     border-bottom: transparent
 }
 
@@ -17838,13 +17838,13 @@ tr>td table.dataTable>thead .sorting_desc:after {
     line-height: 32px
 }
 
-.pagination-accumatch .pagination {
+.pagination-lereta .pagination {
     margin-bottom: 0;
     margin-right: 1.5rem;
     margin-left: 1.5rem
 }
 
-.pagination-accumatch .pagination .page-link {
+.pagination-lereta .pagination .page-link {
     border-radius: .25rem;
     text-align: center;
     padding: 0 0;
@@ -17855,37 +17855,37 @@ tr>td table.dataTable>thead .sorting_desc:after {
     border-color: #ededed
 }
 
-.pagination-accumatch .pagination .page-link:hover {
+.pagination-lereta .pagination .page-link:hover {
     color: #e3030a
 }
 
-.pagination-accumatch .pagination .page-link svg path {
+.pagination-lereta .pagination .page-link svg path {
     fill: #a4a4a4
 }
 
-.pagination-accumatch .pagination li.active .page-link {
+.pagination-lereta .pagination li.active .page-link {
     color: #e3030a;
     background-color: transparent
 }
 
-.pagination-accumatch .pagination li.disabled {
+.pagination-lereta .pagination li.disabled {
     display: none !important
 }
 
-.pagination-accumatch .pagination li.disabled svg path {
+.pagination-lereta .pagination li.disabled svg path {
     fill: #a7a9c0
 }
 
-.pagination-accumatch .pagination li svg {
+.pagination-lereta .pagination li svg {
     fill: #fff
 }
 
-.pagination-accumatch .pagination li svg:hover {
+.pagination-lereta .pagination li svg:hover {
     color: inherit
 }
 
-.pagination-accumatch .pagination li.next .page-link,
-.pagination-accumatch .pagination li.previous .page-link {
+.pagination-lereta .pagination li.next .page-link,
+.pagination-lereta .pagination li.previous .page-link {
     margin-top: 0
 }
 
@@ -18532,20 +18532,20 @@ a .HRMSIconMain:hover {
     background-color: #17253f
 }
 
-.accumatch-dataList-Modal .modal-header-padding {
+.lereta-dataList-Modal .modal-header-padding {
     -webkit-box-shadow: 0 3.07389px 17.4187px -5.12315px rgba(46, 61, 105, .1);
     box-shadow: 0 3.07389px 17.4187px -5.12315px rgba(46, 61, 105, .1)
 }
 
-.accumatch-dataList-Modal .HRMS-Modal-head {
+.lereta-dataList-Modal .HRMS-Modal-head {
     color: #17253f
 }
 
-.accumatch-dataList-Modal .modal-body {
+.lereta-dataList-Modal .modal-body {
     border-top: 1px solid #e0ddd9
 }
 
-.accumatch-dataList-Modal .modal-body .card .card-body .pagination-section {
+.lereta-dataList-Modal .modal-body .card .card-body .pagination-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18562,7 +18562,7 @@ a .HRMSIconMain:hover {
     margin-bottom: 16px
 }
 
-.accumatch-dataList-Modal .modal-body .card .card-body .pagination-section .toolbox {
+.lereta-dataList-Modal .modal-body .card .card-body .pagination-section .toolbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -18572,32 +18572,32 @@ a .HRMSIconMain:hover {
     margin-left: 15px
 }
 
-.accumatch-dataList-Modal .modal-body .card .card-body .pagination-section .toolbox span {
+.lereta-dataList-Modal .modal-body .card .card-body .pagination-section .toolbox span {
     white-space: nowrap;
     -ms-flex-item-align: center;
     align-self: center;
     margin-right: 10px
 }
 
-.accumatch-dataList-Modal .modal-body .card .card-body .pagination-section .pagination {
+.lereta-dataList-Modal .modal-body .card .card-body .pagination-section .pagination {
     margin-bottom: 0;
     margin-right: 0;
     margin-left: 0
 }
 
-.accumatch-dataList-Modal .modal-body .card .card-body .pagination-section .pagination .page-item:nth-child(1) .page-link {
+.lereta-dataList-Modal .modal-body .card .card-body .pagination-section .pagination .page-item:nth-child(1) .page-link {
     background-color: #e3030a;
     color: #fff;
     border-color: transparent
 }
 
-.accumatch-dataList-Modal .modal-body .card .card-body .pagination-section .pagination .page-item:nth-last-child(1) .page-link {
+.lereta-dataList-Modal .modal-body .card .card-body .pagination-section .pagination .page-item:nth-last-child(1) .page-link {
     background-color: #e3030a;
     color: #fff;
     border-color: transparent
 }
 
-.accumatch-dataList-Modal .HRMS-Modal-close-Separator {
+.lereta-dataList-Modal .HRMS-Modal-close-Separator {
     border-left: 1px solid #cacaca
 }
 
@@ -27162,12 +27162,12 @@ table .form-check .form-check-input {
     color: #33343f
 }
 
-.GlobalStatus_ACCUMATCHNOWINDOW {
+.GlobalStatus_leretaNOWINDOW {
     background-color: #f8f9fa;
     color: #33343f
 }
 
-.GlobalStatus_ACCUMATCHWITHWINDOW {
+.GlobalStatus_leretaWITHWINDOW {
     background-color: #f8f9fa;
     color: #33343f
 }
@@ -30462,12 +30462,12 @@ table.dataTable.tablegrid {
     font-size: 14px
 }
 
-.accumatch-table .badge {
+.lereta-table .badge {
     min-width: 40px;
     padding: .5em .2em
 }
 
-.accumatch-table img.iconify {
+.lereta-table img.iconify {
     max-height: 32px !important;
     width: auto !important
 }
@@ -32932,30 +32932,30 @@ div.dataTables_wrapper div.dataTables_processing {
     box-shadow: 0 3px 17px -5px rgba(46, 61, 105, .1)
 }
 
-.accumatch-dataList-Modal .modal-header-padding {
+.lereta-dataList-Modal .modal-header-padding {
     padding: 24px 30px;
     -webkit-box-shadow: 0 3.07389px 17.4187px -5.12315px rgba(46, 61, 105, .1);
     box-shadow: 0 3.07389px 17.4187px -5.12315px rgba(46, 61, 105, .1)
 }
 
 @media (max-width:767px) {
-    .accumatch-dataList-Modal .modal-header-padding {
+    .lereta-dataList-Modal .modal-header-padding {
         padding: 20px 24px
     }
 }
 
-.accumatch-dataList-Modal .HRMS-Modal-head {
+.lereta-dataList-Modal .HRMS-Modal-head {
     font-size: 22.5419px;
     line-height: 28px;
     font-weight: 700;
     color: #17253f
 }
 
-.accumatch-dataList-Modal .modal-body {
+.lereta-dataList-Modal .modal-body {
     border-top: 1px solid #e0ddd9
 }
 
-.accumatch-dataList-Modal .HRMS-Modal-close-Separator {
+.lereta-dataList-Modal .HRMS-Modal-close-Separator {
     height: 56px;
     width: 76px;
     position: absolute;
@@ -32964,13 +32964,13 @@ div.dataTables_wrapper div.dataTables_processing {
 }
 
 @media (max-width:767px) {
-    .accumatch-dataList-Modal .HRMS-Modal-close-Separator {
+    .lereta-dataList-Modal .HRMS-Modal-close-Separator {
         height: 66px;
         width: 64px
     }
 }
 
-.accumatch-dataList-Modal .HRMS-Modal-close-Separator+.btn-close {
+.lereta-dataList-Modal .HRMS-Modal-close-Separator+.btn-close {
     opacity: 1;
     z-index: 1
 }
@@ -33183,22 +33183,22 @@ table.dataTable>thead>tr>th {
     display: none !important
 }
 
-.GlobalSearchModal .accumatch-dataList-Modal .HRMS-Modal-close-Separator {
+.GlobalSearchModal .lereta-dataList-Modal .HRMS-Modal-close-Separator {
     height: 64px;
     z-index: 1
 }
 
-.GlobalSearchModal .accumatch-dataList-Modal .btn-close {
+.GlobalSearchModal .lereta-dataList-Modal .btn-close {
     margin-right: 0
 }
 
 @media (min-width:992px) {
-    .GlobalSearchModal .accumatch-dataList-Modal {
+    .GlobalSearchModal .lereta-dataList-Modal {
         max-width: 1549px !important
     }
 }
 
-.GlobalSearchModal .accumatch-dataList-Modal .empty-message {
+.GlobalSearchModal .lereta-dataList-Modal .empty-message {
     padding: 15px 22px;
     font-size: 18px;
     line-height: 21.47px;
